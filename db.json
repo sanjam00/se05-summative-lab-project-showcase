@@ -1,0 +1,54 @@
+{
+  "store_info": [
+    {
+      "id": 1,
+      "name": "Tea & Tranquility",
+      "description": "The calming corner with the best teas.",
+      "phone_number": "(111) 222-3333"
+    }
+  ],
+  "tea": [
+    {
+      "id": 1,
+      "name": "English Breakfast",
+      "description": "malty, full-bodied, strong",
+      "caffeinated": true,
+      "price": 8
+    },
+    {
+      "id": 2,
+      "name": "Green Tea",
+      "description": "nutty, vegetal, fresh",
+      "caffeinated": true,
+      "price": 9
+    },
+    {
+      "id": 3,
+      "name": "Jasmine Green Tea",
+      "description": "light, fragrant, floral",
+      "caffeinated": true,
+      "price": 9
+    },
+    {
+      "id": 4,
+      "name": "Oolong Peach White Tea",
+      "description": "sweet, floral, fruity",
+      "caffeinated": true,
+      "price": 6
+    },
+    {
+      "id": 5,
+      "name": "Peppermint Tea",
+      "description": "minty, vibrant, crisp ",
+      "caffeinated": false,
+      "price": 5
+    },
+    {
+      "id": 6,
+      "name": "Lavender & Chamomile",
+      "description": "calming, floral, pleasant",
+      "caffeinated": false,
+      "price": 7
+    }
+  ]
+}

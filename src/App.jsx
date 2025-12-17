@@ -6,6 +6,7 @@ import AdminPage from "./pages/AdminPage"
 import NavBar from './components/NavBar'
 
 function App() {
+
   return (
     <BrowserRouter>
       <NavBar />
