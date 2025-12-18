@@ -6,19 +6,6 @@ import SearchBar from "../components/SearchBar"
 export default function ShopPage({ teas, setTeas }) {
   const [searchInput, setSearchInput] = useState("")
 
-  useEffect(() => {
-    fetch("http://localhost:3001/tea")
-      .then(r => {
-        if (!r.ok) { throw new Error("Failed to fetch") }
-        return r.json();
-      })
-      .then(data => {
-        console.log(data)
-        setTeas(data)
-      })
-      .catch(error => console.log("Fetch request failed:", error))
-  }, [])
-
   function handleSearch(e) {
     setSearchInput(e.target.value);
   }
