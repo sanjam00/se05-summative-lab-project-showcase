@@ -3,7 +3,7 @@ import './NavBar.css'
 
 export default function NavBar() {
   return (
-    <>
+    <nav className="navbar">
 
       <NavLink
         to='/'>
@@ -19,6 +19,6 @@ export default function NavBar() {
         to='/admin-portal'>
         Admin Portal
       </NavLink>
-    </>
+    </nav>
   )
 }

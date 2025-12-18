@@ -15,6 +15,8 @@ export default function NewTeaForm() {
 
       <label htmlFor="price-input">Price:</label>
       <input id="price-input" type="textbox" />
+
+      <button>Submit</button>
     </form>
   )
 }
