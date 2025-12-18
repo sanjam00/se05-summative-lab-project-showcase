@@ -11,6 +11,7 @@
     {
       "id": 1,
       "name": "English Breakfast",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4EFPL11zgzzTkL64A5HUUYKKaIhaOnx2RuQ&s",
       "description": "malty, full-bodied, strong",
       "caffeinated": true,
       "price": 8
@@ -18,6 +19,7 @@
     {
       "id": 2,
       "name": "Green Tea",
+      "image": "https://t4.ftcdn.net/jpg/01/08/32/05/240_F_108320596_m5uPH8MSVT9QHrq5QoRMKg1bNpHlryQU.jpg",
       "description": "nutty, vegetal, fresh",
       "caffeinated": true,
       "price": 9
@@ -25,20 +27,23 @@
     {
       "id": 3,
       "name": "Jasmine Green Tea",
+      "image": "https://t4.ftcdn.net/jpg/10/36/08/23/240_F_1036082332_tF5KwRY4rckyRoOU8AIX2ll599R6ekif.jpg",
       "description": "light, fragrant, floral",
       "caffeinated": true,
       "price": 9
     },
     {
       "id": 4,
-      "name": "Oolong Peach White Tea",
-      "description": "sweet, floral, fruity",
+      "name": "Oolong Tea",
+      "image": "https://t4.ftcdn.net/jpg/00/48/03/51/240_F_48035187_uhdBArJG3IRO6o21VWayOFLEA3ftC4Yx.jpg",
+      "description": "light, floral, fresh",
       "caffeinated": true,
       "price": 6
     },
     {
       "id": 5,
       "name": "Peppermint Tea",
+      "image": "https://t3.ftcdn.net/jpg/00/61/90/12/240_F_61901241_jSX40huUy8taBzQAF7fEV8ZPX7xQI9ds.jpg",
       "description": "minty, vibrant, crisp ",
       "caffeinated": false,
       "price": 5
@@ -46,6 +51,7 @@
     {
       "id": 6,
       "name": "Lavender & Chamomile",
+      "image": "https://t4.ftcdn.net/jpg/13/53/90/19/240_F_1353901967_pwP7ac8whwv32HGfD2C5aNNXHcwJuKqT.jpg",
       "description": "calming, floral, pleasant",
       "caffeinated": false,
       "price": 7
