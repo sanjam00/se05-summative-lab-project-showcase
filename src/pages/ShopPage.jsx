@@ -3,8 +3,7 @@ import { Outlet } from "react-router-dom"
 import TeaList from "../components/TeaList"
 import SearchBar from "../components/SearchBar"
 
-export default function ShopPage() {
-  const [teas, setTeas] = useState([])
+export default function ShopPage({ teas, setTeas }) {
   const [searchInput, setSearchInput] = useState("")
 
   useEffect(() => {
@@ -19,7 +18,6 @@ export default function ShopPage() {
       })
       .catch(error => console.log("Fetch request failed:", error))
   }, [])
-
 
   function handleSearch(e) {
     setSearchInput(e.target.value);
