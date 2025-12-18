@@ -1,9 +1,15 @@
-.navbar>a {
+.navbar {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
+  justify-content: space-evenly;
+}
+
+.navbar>a {
+  color: #725608;
   text-decoration: none;
   padding: .25em 1em;
   align-items: center;
+}
+
+a.active {
+  color: #436050;
 }

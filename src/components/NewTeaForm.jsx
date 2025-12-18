@@ -47,23 +47,27 @@ export default function NewTeaForm({ onAddTea, props }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="name-input">Name:</label>
-      <input id="name-input" type="textbox" name="name" value={formData.name} onChange={handleChange} />
+    <div className="new-tea-container">
+      <h3>Add a new product:</h3>
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="name-input">Name:</label>
+        <input id="name-input" type="textbox" name="name" value={formData.name} onChange={handleChange} />
 
-      <label htmlFor="image-input">Image:</label>
-      <input id="image-input" type="textbox" name="image" value={formData.image} onChange={handleChange} />
+        <label htmlFor="image-input">Image:</label>
+        <input id="image-input" type="textbox" name="image" value={formData.image} onChange={handleChange} />
 
-      <label htmlFor="description-input">Description:</label>
-      <input id="description-input" type="textbox" name="description" value={formData.description} onChange={handleChange} />
+        <label htmlFor="description-input">Description:</label>
+        <input id="description-input" type="textbox" name="description" value={formData.description} onChange={handleChange} />
 
-      <label htmlFor="caffeinated-checkbox">Caffeinated:</label>
-      <input id="caffeinated-checkbox" type="checkbox" name="caffeinated" checked={formData.caffeinated} onChange={handleChange} />
+        <label htmlFor="caffeinated-checkbox">Caffeinated:</label>
+        <input id="caffeinated-checkbox" type="checkbox" name="caffeinated" checked={formData.caffeinated} onChange={handleChange} />
 
-      <label htmlFor="price-input">Price:</label>
-      <input id="price-input" type="textbox" name="price" value={formData.price} onChange={handleChange} />
+        <label htmlFor="price-input">Price:</label>
+        <input id="price-input" type="textbox" name="price" value={formData.price} onChange={handleChange} />
 
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
   )
 }

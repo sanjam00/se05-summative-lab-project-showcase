@@ -78,6 +78,7 @@ export default function AdminTea({ tea, onUpdateTea, onDeleteTea }) {
           />
 
           <button id="edit-button">Submit Changes</button>
+          <button id="cancel button" onClick={() => setIsEditing(false)}>Cancle Change</button>
         </form>
       </>
     )
