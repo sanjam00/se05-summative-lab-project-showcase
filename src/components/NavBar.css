@@ -1,15 +1,21 @@
 .navbar {
   display: flex;
   justify-content: space-evenly;
+  background-color: #B2AC88;
+  padding: 1em 0;
+  width: 100%;
+  margin: 0;
 }
 
 .navbar>a {
-  color: #725608;
+  color: #473144;
   text-decoration: none;
   padding: .25em 1em;
   align-items: center;
 }
 
 a.active {
-  color: #436050;
+  color: #635E40;
+  scale: 1.18;
+  transition: .3s;
 }

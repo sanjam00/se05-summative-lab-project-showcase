@@ -15,8 +15,7 @@ export default function ShopPage({ teas, setTeas }) {
   )
 
   return (
-    <div>
-      <h1>This is the Shop Page!</h1>
+    <div className="shop-container">
       <p>Here, the products will be displayed (done). There will be a search and sort function.</p>
       <SearchBar handleSearch={handleSearch} searchInput={searchInput} />
       <TeaList teas={filteredTeas} />

@@ -59,13 +59,15 @@ export default function NewTeaForm({ onAddTea, props }) {
         <label htmlFor="description-input">Description:</label>
         <input id="description-input" type="textbox" name="description" value={formData.description} onChange={handleChange} />
 
-        <label htmlFor="caffeinated-checkbox">Caffeinated:</label>
-        <input id="caffeinated-checkbox" type="checkbox" name="caffeinated" checked={formData.caffeinated} onChange={handleChange} />
+        <div className="checkbox-row">
+          <label htmlFor="caffeinated-checkbox">Caffeinated:</label>
+          <input id="caffeinated-checkbox" type="checkbox" name="caffeinated" checked={formData.caffeinated} onChange={handleChange} />
+        </div>
 
         <label htmlFor="price-input">Price:</label>
         <input id="price-input" type="textbox" name="price" value={formData.price} onChange={handleChange} />
 
-        <button type="submit">Submit</button>
+        <button type="submit" id="newTeaSubmit">Submit</button>
       </form>
     </div>
 

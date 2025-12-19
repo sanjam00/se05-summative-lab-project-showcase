@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #98720b;
+  color: #473144;
   background-color: #fff8f0;
 
   font-synthesis: none;
@@ -13,8 +13,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  margin: 0;
+}
+
+.home-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em
+}
+
 h1 {
   font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.shop-container {
+  padding: 1em;
+}
+
+.admin-container {
+  padding: 1em;
+}
+
+.admin-container>h1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+}
+
+.tea-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 20px;
 }
 
 .tea-card {
@@ -28,4 +64,55 @@ h1 {
 
 img {
   border-radius: 10px;
+}
+
+input {
+  background-color: #B2AC88;
+  border: none;
+  padding: .25em 1em;
+  margin: .2em;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+  padding: 1em;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+button {
+  margin: .5em;
+  padding: .5em .75em;
+  background-color: #6f6949;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #B2AC88;
+  transition: .3s;
+  scale: 1.13;
+}
+
+#newTeaSubmit,
+#teaEditButton,
+#cancelEditButton {
+  width: auto;
+  max-width: 160px;
+  display: inline-block;
+}
+
+.new-tea-container {
+  background-color: #EBE3DB;
+  border-radius: 15px;
+  padding: .5em;
 }
