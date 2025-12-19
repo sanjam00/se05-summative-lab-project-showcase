@@ -49,22 +49,26 @@ export default function AdminTea({ tea, onUpdateTea, onDeleteTea }) {
         <h5>Edit {tea.name}</h5>
         <form onSubmit={handleSubmit}>
           <input
+            data-testid="name-input"
             name="name"
             value={formData.name}
             onChange={handleChange}
           />
           <input
+            data-testid="image-input"
             name="image"
             value={formData.image}
             onChange={handleChange}
           />
           <input
+            data-testid="description-input"
             name="description"
             value={formData.description}
             onChange={handleChange}
           />
           <label htmlFor="edit-caffeinated">Caffeinated:</label>
           <input
+            data-testid="caffeinated-input"
             id="edit-caffeinated"
             type="checkbox"
             name="caffeinated"
@@ -72,6 +76,7 @@ export default function AdminTea({ tea, onUpdateTea, onDeleteTea }) {
             onChange={handleChange}
           />
           <input
+            data-testid="price-input"
             name="price"
             value={formData.price}
             onChange={handleChange}

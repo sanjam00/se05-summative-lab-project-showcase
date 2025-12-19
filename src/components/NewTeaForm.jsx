@@ -67,7 +67,7 @@ export default function NewTeaForm({ onAddTea, props }) {
         <label htmlFor="price-input">Price:</label>
         <input id="price-input" type="textbox" name="price" value={formData.price} onChange={handleChange} />
 
-        <button type="submit" id="newTeaSubmit">Submit</button>
+        <button type="submit" id="newTeaSubmit">Add Tea</button>
       </form>
     </div>
 

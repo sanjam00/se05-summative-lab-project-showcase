@@ -3,7 +3,7 @@
 export default function TeaCard({ tea, props }) {
 
   return (
-    <div className="tea-card">
+    <div className="tea-card" data-testid="tea-card">
       <img src={tea.image} />
       <h3>{tea.name}</h3>
       <p>Flavor Notes: {tea.description}</p>
