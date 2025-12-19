@@ -6,8 +6,6 @@ export default function AdminPage({ teas, onAddTea, onUpdateTea, onDeleteTea }) 
   return (
     <div className="admin-container">
       <h1>Admin Portal</h1>
-      {/* render a login functionality */}
-      <p>code a login functionality? a blank username and password field, submitting it takes you to the edit pages</p>
 
       <NewTeaForm onAddTea={onAddTea} />
 

@@ -47,7 +47,7 @@ export default function NewTeaForm({ onAddTea, props }) {
   }
 
   return (
-    <div className="new-tea-container">
+    <div className="new-tea-form-container">
       <h3>Add a new product:</h3>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name-input">Name:</label>
